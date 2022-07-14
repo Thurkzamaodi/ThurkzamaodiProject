@@ -2,7 +2,7 @@ console.log("Hello, world")
 
 balance = 30000; 
 withDraw = 25000; 
-console.log('Your amount is: ', balance 'Baht');
+console.log('Your amount is: ', balance, 'Baht');
 if (withDraw <= balance) {
   console.log('Withdraw amount: ', withDraw, 'Baht');
   balance -= withDraw
